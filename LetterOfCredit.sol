@@ -4,7 +4,7 @@ contract LetterOfCredit {
  string public letter;
 
  constructor() {
-    profession = 'Letter of Credit: APPROVED';
+    letter = 'Letter of Credit: APPROVED';
 }
 
  function setLetter(string memory _letter) public {
